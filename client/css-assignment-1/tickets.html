@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Tickets</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/tickets.html">Tickets</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="wrap">
+            <img src="./images/hero-symbol.jpg" alt="hero symbol">
+            <h2>ADVANCING TECHNOLOGY</h2>
+            <h3>1st Annual Budding Developers Conference</h3>
+            <div>Orlando, FL - October 11, 2019</div>
+        </div>
+    </header>
+
+    <h1 id="tickets-h1">Tickets</h1>
+
+    <section id="tickets-form">
+        <div class="wrap">
+            <form action="" method="post">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                </p>
+                <p>
+                    <select name="ticketType">
+                        <option value="standard">Standard - $149</option>
+                        <option value="premium">Premium - $249</option>
+                    </select>
+                </p>
+
+                <h4>Package</h4>
+
+                <p>
+                <div>
+                    <input type="checkbox" name="addOn[lodging]" value="1" id="lodging">
+                    <label for="lodging">Add on lodging - $99</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="addOn[meals]" value="1" id="meals">
+                    <label for="meals">Add on meals - $119</label>
+                </div>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+
+            </form>
+        </div>
+    </section>
+
+    <a href="/">Back to home</a>
+
+    <footer>
+        <div class="wrap">
+            <p>&copy; 2019</p>
+        </div>
+    </footer>
+</body>
+
+</html>

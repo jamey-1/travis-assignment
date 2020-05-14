@@ -1,0 +1,150 @@
+/* BASE STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin: 25px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+/* DEFAULTS */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  overflow: auto;
+}
+
+.wrap {
+  max-width: 1280;
+  padding: 50px;
+}
+
+/********* Homepage ************/
+
+/* Header */
+header {
+  background: url("/images/conference-hero.jpg");
+  text-align: center;
+  color: #fff;
+  padding: 80px 0;
+}
+
+header img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* Benifit */
+#benifit {
+  background: #bdd5ea;
+}
+
+/* Three Points */
+.three-points-section {
+  min-height: 400px;
+}
+
+.three-points-section img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.three-points-section-image {
+  width: 40%;
+  float: left;
+}
+
+.three-points-section-text {
+  width: 60%;
+  float: left;
+}
+
+/* tickets table */
+#tickets-table {
+  background: #bdd5ea;
+}
+
+/* tow block */
+.two-block-section {
+  width: 50%;
+  float: left;
+}
+
+.two-block-section .three-points-section {
+  min-height: 200px;
+}
+
+.two-block-section img {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.two-block-section h3 {
+  text-align: center;
+}
+
+.two-block-section .three-points-section-image {
+  width: 50%;
+  float: left;
+}
+
+.two-block-section .three-points-section-text {
+  width: 50%;
+  float: left;
+}
+
+/* goto-tickect */
+#goto-tickect {
+  background: #bdd5ea;
+}
+
+/* footer */
+footer {
+  background: #577399;
+  text-align: center;
+  color: #fff;
+}
+
+footer .wrap {
+  padding: 5px;
+}
+
+/********** Tickets *************/
+
+#tickets-h1 {
+  text-align: center;
+}
+
+#tickets-form form {
+  text-align: center;
+}
