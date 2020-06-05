@@ -112,7 +112,7 @@ section#pricing-table {
 
 th,
 td {
-  border: 1px solid #bdd5ea;
+  border: 5px solid #bdd5ea;
   padding: 20px;
 }
 
@@ -128,6 +128,7 @@ td {
 #pricing-table table {
   width: 88%;
   margin: 0 auto;
+  border-collapse: collapse;
 }
 
 #pricing-table a {
