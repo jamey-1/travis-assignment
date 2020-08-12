@@ -116,21 +116,23 @@ header img {
 section#expectations {
   background: #bdd5ea;
   border-bottom: 1px dashed #495867;
+  text-align: center;
+}
+
+section#expectations strong {
+  font-size: 32px;
 }
 
 #expectations h3 {
-  text-align: center;
+  margin-bottom: 50px;
 }
 
 #expectations ul {
   display: flex;
   justify-content: space-around;
+  padding: 0;
 
   list-style: none;
-}
-
-.highlight-number {
-  font-size: 30px;
 }
 
 /* THREE POINTS */
@@ -348,6 +350,9 @@ footer {
   }
 
   /* EXPECTATIONS UL */
+  #expectations {
+    margin-bottom: 20px;
+  }
   #expectations ul {
     display: inline-block;
     margin: 0px;
@@ -356,6 +361,9 @@ footer {
   .expectation-ul-wrap {
     margin: auto;
     width: 200px;
+  }
+
+  #expectations ul li {
   }
 
   /* THREE POINT SECTION */

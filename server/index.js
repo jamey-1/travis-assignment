@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 
-const clientFolder = "client/css-assignment-3";
+const clientFolder = "client/dom-project-1";
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, "/../", clientFolder)));
